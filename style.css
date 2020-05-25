@@ -1,0 +1,79 @@
+body 
+{
+    background-color:black;
+    color: white;
+    font-family: fantasy;
+    font-size: 4em;
+}
+h1
+{
+    color: plum;
+    font-size: 5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.container
+{
+    background-color: white;
+    margin-right: 15px;
+}
+hr
+{
+    border-color:black;
+    max-width: auto;
+    border-width:3px; ;
+}
+.p1
+{
+    background-color: purple;
+    margin-left: 10px;
+}
+.p1 p
+{
+    padding: 15px;
+}
+.p1 :hover
+{
+    text-align: right;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
+.p2
+{
+    background-color: rebeccapurple;
+    margin-left: 10px;
+}
+.p2 p
+{
+    padding: 15px;
+}
+.p2 :hover
+{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
+.p3
+{
+    background-color: purple;
+    margin-left: 10px;
+}
+.p3 p
+{
+    padding: 15px;
+}
+.p3 :hover
+{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
+h2
+{
+    border: 2px solid purple;
+    border-radius: 15%;
+    text-align: center;
+}
