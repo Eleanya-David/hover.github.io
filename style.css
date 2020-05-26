@@ -1,0 +1,122 @@
+body 
+{
+    background-color:black;
+    color: white;
+    font-family: 'poppins';
+    font-size: 4em;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    width: 100%;
+}
+.container
+{
+    background-color: white;
+    margin-right: 15px;
+}
+hr
+{
+    border-color:black;
+    max-width: auto;
+    border-width:3px; ;
+}
+.p1
+{
+    
+    text-align: right;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+  
+}
+.p1 p
+{
+    padding: 15px;
+}
+.p1 :hover
+{
+    background-color: plum;
+    margin-left: 10px;
+    font-size: 50px;
+}
+.p2
+{
+    
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+ 
+}
+.p2 p
+{
+    padding: 15px;
+}
+.p2 :hover
+{
+    background-color: rebeccapurple;
+    margin-left: 10px;
+    font-size: 50px;
+}
+.p3
+{
+    text-align: left;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
+.p3 p
+{
+    padding: 15px;
+}
+.p3 :hover
+{
+    background-color: violet;
+    margin-left: 10px;
+    font-size: 50px;
+}
+.p4
+{
+    
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    width: auto;
+   margin-right: auto;
+   margin-left: auto;
+}
+.p4 p
+{
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+.p4 :hover
+{
+    background-color: mediumpurple;
+    margin-left: 10px;
+    font-size: 42px;
+}
+@media only screen and (max-width:800px){
+    body
+    {
+        background-color: black;
+    }
+    .container
+    {
+        width: 100%;
+        background-color: pink;
+        margin-left: 0;
+    }
+    .container > div
+    {
+        margin-left: 0;
+    }
+}
+
+
